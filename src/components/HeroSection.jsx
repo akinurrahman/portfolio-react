@@ -31,9 +31,7 @@ const HeroSection = () => {
               <i className="fa-regular fa-envelope"></i>
             </a>
           </div>
-          <button className="btn alert" onClick={()=> alert('Comming Soon')}>
-            Download Resume
-          </button>
+           <a className="btn " href="https://drive.google.com/file/d/14XUu7slNkpTINb5I6nC3wG7nE7WtYY7J/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download Resume</a>
         </div>
 
         <div className="home-img">
