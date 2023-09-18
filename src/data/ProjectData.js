@@ -1,9 +1,8 @@
 const projects = [
- 
   {
     id: 1,
     titile: `Shopping Cart`,
-    background : `./images/shopping-cart.jpg`,
+    background: `./images/shopping-cart.jpg`,
     description: `Intuitive e-commerce platform for adding, adjusting quantities,
     and calculating prices in real time. Effortlessly modify or
     remove items, enhancing shopping convenience.`,
@@ -13,7 +12,7 @@ const projects = [
   {
     id: 2,
     titile: `Todo-List`,
-    background : `./images/todolist.jpg`,
+    background: `./images/todolist.jpg`,
     description: ` Check out my Todo List app created using React. Stay organized
     by managing your tasks with this interactive app.`,
     url: `https://akinur-todo-app.netlify.app/`,
@@ -22,7 +21,7 @@ const projects = [
   {
     id: 3,
     titile: `Random Password Generator`,
-    background : `./images/randomPassword.jpg`,
+    background: `./images/randomPassword.jpg`,
     description: `A project that generates secure and unique passwords with
     customizable options, providing enhanced online security.`,
     url: `https://akinurrahman.github.io/passwordGenerator/`,
@@ -31,7 +30,7 @@ const projects = [
   {
     id: 4,
     titile: `Weight-to-Price Converter`,
-    background : `./images/weight.jpg`,
+    background: `./images/weight.jpg`,
     description: ` An app that quickly calculates the cost of a product based on
     weight. Users enter the price per kilogram and choose to convert
     grams to cost or cost to grams. By entering the desired weight,
@@ -39,11 +38,11 @@ const projects = [
     url: `https://akinurrahman.github.io/price-calculator/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
- 
+
   {
     id: 5,
     titile: `Weather App`,
-    background : `./images/weather.jpg`,
+    background: `./images/weather.jpg`,
     description: `Explore weather with ease. Search cities or choose from presets.
     Stay updated on temperature, humidity, wind speed, and more.
     Plan confidently with our intuitive and accurate weather web
@@ -51,16 +50,14 @@ const projects = [
     url: `https://akinur-weather-app.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
+
   {
     id: 6,
-    titile: `Calculator`,
-    background : `./images/calculator.jpg`,
-    description: `An interactive calculator application that performs basic
-    arithmetic operations, offering convenient calculations for
-    everyday use`,
-    url: `https://akinurrahman.github.io/calculator/`,
+    titile: `Zomato Clone`,
+    background: `./images/zomato logo.jpg`,
+    description: `A front-end web application that replicates the user interface and features of the popular Zomato platform, allowing users to browse restaurants, view menus, and simulate the restaurant selection process.`,
+    url: `https://react-zomato-clone.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
-  
 ];
 export default projects;
