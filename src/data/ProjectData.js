@@ -6,7 +6,7 @@ const projects = [
     description: `Intuitive e-commerce platform for adding, adjusting quantities,
     and calculating prices in real time. Effortlessly modify or
     remove items, enhancing shopping convenience.`,
-    url: `https://akinur-shopping-cart.netlify.app/`,
+    url: `https://akinur-e-commerce.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
   {
