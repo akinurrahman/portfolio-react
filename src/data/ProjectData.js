@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    titile: `Shopping Cart`,
+    titile: `E-commerce WebApp`,
     background: `./images/shopping-cart.jpg`,
     description: `Intuitive e-commerce platform for adding, adjusting quantities,
     and calculating prices in real time. Effortlessly modify or
