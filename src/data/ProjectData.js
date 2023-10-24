@@ -1,6 +1,14 @@
 const projects = [
   {
     id: 1,
+    titile: `Movix`,
+    background: `./images/movie.jpg`,
+    description: `Developed a user-friendly movie searching website for film enthusiasts. Features robust search, detailed movie info, and user ratings. Responsive design ensures a seamless experience on any device`,
+    url: `https://akinur-react-portfolio.netlify.app//`,
+    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
+  },
+  {
+    id: 2,
     titile: `E-commerce WebApp`,
     background: `./images/shopping-cart.jpg`,
     description: `Intuitive e-commerce platform for adding, adjusting quantities,
@@ -10,7 +18,15 @@ const projects = [
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
   {
-    id: 2,
+    id: 3,
+    titile: `Zomato Clone`,
+    background: `./images/zomato logo.jpg`,
+    description: `A front-end web application that replicates the user interface and features of the popular Zomato platform, allowing users to browse restaurants, view menus, and simulate the restaurant selection process.`,
+    url: `https://react-zomato-clone.netlify.app/`,
+    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
+  },
+  {
+    id: 4,
     titile: `Todo-List`,
     background: `./images/todolist.jpg`,
     description: ` Check out my Todo List app created using React. Stay organized
@@ -18,8 +34,9 @@ const projects = [
     url: `https://akinur-todo-app.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
+
   {
-    id: 3,
+    id: 5,
     titile: `Random Password Generator`,
     background: `./images/randomPassword.jpg`,
     description: `A project that generates secure and unique passwords with
@@ -27,20 +44,9 @@ const projects = [
     url: `https://akinurrahman.github.io/passwordGenerator/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
-  {
-    id: 4,
-    titile: `Weight-to-Price Converter`,
-    background: `./images/weight.jpg`,
-    description: ` An app that quickly calculates the cost of a product based on
-    weight. Users enter the price per kilogram and choose to convert
-    grams to cost or cost to grams. By entering the desired weight,
-    they can instantly view the corresponding product cost.`,
-    url: `https://akinurrahman.github.io/price-calculator/`,
-    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
-  },
 
   {
-    id: 5,
+    id: 6,
     titile: `Weather App`,
     background: `./images/weather.jpg`,
     description: `Explore weather with ease. Search cities or choose from presets.
@@ -50,14 +56,8 @@ const projects = [
     url: `https://akinur-weather-app.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
-
   {
-    id: 6,
-    titile: `Zomato Clone`,
-    background: `./images/zomato logo.jpg`,
-    description: `A front-end web application that replicates the user interface and features of the popular Zomato platform, allowing users to browse restaurants, view menus, and simulate the restaurant selection process.`,
-    url: `https://react-zomato-clone.netlify.app/`,
-    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
+    id: 7,
   },
 ];
 export default projects;
