@@ -2,10 +2,6 @@ import React, { useState } from "react";
 const Header = () => {
   const [isNavActive, setIsNavActive] = useState(false);
 
-  const handleClick = () => {
-    setIsNavActive(!isNavActive);
-  };
-
   return (
     <>
       <header className="header">
@@ -14,16 +10,34 @@ const Header = () => {
         </a>
 
         <nav className={`navbar ${isNavActive ? "active" : ""}`}>
-          <a href="#home" className="active">
+          <a
+            href="#home"
+            onClick={() => setIsNavActive((prev) => !prev)}
+          >
             Home
           </a>
-          <a href="#about">About</a>
-          <a href="#education">Education</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" onClick={() => setIsNavActive((prev) => !prev)}>
+            About
+          </a>
+          <a href="#education" onClick={() => setIsNavActive((prev) => !prev)}>
+            Education
+          </a>
+          <a href="#portfolio" onClick={() => setIsNavActive((prev) => !prev)}>
+            Portfolio
+          </a>
+          <a href="#contact" onClick={() => setIsNavActive((prev) => !prev)}>
+            Contact
+          </a>
         </nav>
-        <div className="hamburger-container" onClick={handleClick}>
-          <i className={`fa-solid ${isNavActive ? "fa-xmark" : "fa-bars"} hamburger-icon`}></i>
+        <div
+          className="hamburger-container"
+          onClick={() => setIsNavActive((prev) => !prev)}
+        >
+          <i
+            className={`fa-solid ${
+              isNavActive ? "fa-xmark" : "fa-bars"
+            } hamburger-icon`}
+          ></i>
         </div>
       </header>
     </>

@@ -56,8 +56,6 @@ const projects = [
     url: `https://akinur-weather-app.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
-  {
-    id: 7,
-  },
+  
 ];
 export default projects;
