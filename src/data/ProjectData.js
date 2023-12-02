@@ -1,6 +1,14 @@
 const projects = [
   {
     id: 1,
+    titile: `YouTube Clone`,
+    background: `./images/youtube.jpg`,
+    description: `Crafted a comprehensive YouTube clone using React, Tailwind CSS, Redux Toolkit, and Vite. Dive into a familiar interface featuring video search, detailed views, and seamless responsiveness for a top-notch viewing experience.`,
+    url: `https://youtube-akinur.netlify.app//`,
+    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
+  },
+  {
+    id: 2,
     titile: `Movix`,
     background: `./images/movie.jpg`,
     description: `Developed a user-friendly movie searching website for film enthusiasts. Features robust search, detailed movie info, and user ratings. Responsive design ensures a seamless experience on any device`,
@@ -8,7 +16,7 @@ const projects = [
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
   {
-    id: 2,
+    id: 3,
     titile: `E-commerce WebApp`,
     background: `./images/shopping-cart.jpg`,
     description: `Intuitive e-commerce platform for adding, adjusting quantities,
@@ -18,7 +26,7 @@ const projects = [
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
   {
-    id: 3,
+    id: 4,
     titile: `Zomato Clone`,
     background: `./images/zomato logo.jpg`,
     description: `A front-end web application that replicates the user interface and features of the popular Zomato platform, allowing users to browse restaurants, view menus, and simulate the restaurant selection process.`,
@@ -26,22 +34,12 @@ const projects = [
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
   {
-    id: 4,
+    id: 5,
     titile: `Todo-List`,
     background: `./images/todolist.jpg`,
     description: ` Check out my Todo List app created using React. Stay organized
     by managing your tasks with this interactive app.`,
     url: `https://akinur-todo-app.netlify.app/`,
-    arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
-  },
-
-  {
-    id: 5,
-    titile: `Random Password Generator`,
-    background: `./images/randomPassword.jpg`,
-    description: `A project that generates secure and unique passwords with
-    customizable options, providing enhanced online security.`,
-    url: `https://akinurrahman.github.io/passwordGenerator/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
 
@@ -56,6 +54,5 @@ const projects = [
     url: `https://akinur-weather-app.netlify.app/`,
     arrowIcon: `fa-sharp fa-solid fa-arrow-up-right-from-square`,
   },
-  
 ];
 export default projects;
