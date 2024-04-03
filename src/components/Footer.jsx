@@ -5,7 +5,10 @@ const Footer = () => {
     <>
       <footer className="footer">
         <div className="footer-text">
-          <p>Copyright &copy; 2023 by Akinur Rahman | All right reserved</p>
+          <p>
+            Copyright &copy; {new Date().getFullYear()} by Akinur Rahman | All right
+            reserved
+          </p>
         </div>
         <div className="footer-iconTop">
           <a href="#home">
